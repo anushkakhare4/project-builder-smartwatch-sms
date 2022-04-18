@@ -1,37 +1,42 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>smart watch</title>
+    <title>SmartWatch</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
-    <script src="./app.js"></script>
 </head>
-<body onload="clock()"> 
-   
-    <header id="smalltime">
-        <div id="clock1"></div>
-    </header>
 
-    <section id="section">
-        <div id="clock2"></div>
-            <div id="day">day</div>
+<body>
+    <section>
+        <div class="title">
+            <h1>SmartWatch</h1>
+        </div>
+        <div class="display">
+            <div class="watch">
+                <div class="screen">
+                    <div class="smalltime"></div>
 
-        
+                    <div class="displayscreen">
+                    <div class="times">
+                        <span class="time"></span>
+                        <span class="day"></span>
+                    </div>
+                </div>
+                    <div class="icons">
+                        <div class="message"><i class='fas fa-comments'></i></div>
+                        <div><i class='fas fa-music'></i></div>
+                        <div><i class='far fa-clock'></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <div class="icons">
-        <button id ="message"><i class='fas fa-comments'></i></button>
-        <button><i class='fas fa-music'></i></button>
-        <button><i class='far fa-clock'></i></button>
-    </div>
-      
-
-    </footer>
-    
 </body>
+
+<script src="index.js"></script>
+<script src="app.js"></script>
 </html>
